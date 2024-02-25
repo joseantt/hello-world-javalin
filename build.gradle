@@ -18,7 +18,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'org.example.Main'
+    mainClassName = 'org.example.Main'
 }
 
 test {
