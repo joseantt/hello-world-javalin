@@ -21,6 +21,15 @@ application {
     mainClassName = 'org.example.Main'
 }
 
+jar {
+    manifest {
+        attributes(
+                'Class-Path': configurations.runtimeClasspath.files.collect { it.getName() }.join(' '),
+                'Main-Class': 'org.example.Main'
+        )
+    }
+}
+
 test {
     useJUnitPlatform()
 }

@@ -1,2 +1,12 @@
 Manifest-Version: 1.0
+Class-Path: javalin-5.6.3.jar slf4j-simple-2.0.7.jar kotlin-stdlib-jdk8-
+ 1.8.21.jar kotlin-stdlib-jdk7-1.8.21.jar kotlin-stdlib-1.8.21.jar annot
+ ations-24.0.1.jar websocket-jetty-server-11.0.17.jar jetty-webapp-11.0.
+ 17.jar websocket-servlet-11.0.17.jar jetty-servlet-11.0.17.jar jetty-se
+ curity-11.0.17.jar websocket-core-server-11.0.17.jar jetty-server-11.0.
+ 17.jar websocket-jetty-common-11.0.17.jar websocket-core-common-11.0.17
+ .jar jetty-http-11.0.17.jar jetty-io-11.0.17.jar jetty-xml-11.0.17.jar 
+ jetty-util-11.0.17.jar slf4j-api-2.0.7.jar websocket-jetty-api-11.0.17.
+ jar jetty-jakarta-servlet-api-5.0.2.jar kotlin-stdlib-common-1.8.21.jar
+Main-Class: org.example.Main
 
